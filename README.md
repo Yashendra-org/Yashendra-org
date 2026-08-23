@@ -54,9 +54,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="45%" style="border-radius: 8px;" alt="Boy Coding Animation"/>
-  &nbsp;&nbsp;
-  <img src="https://media.giphy.com/media/26u4lD7q9r19x5e7S/giphy.gif" width="45%" style="border-radius: 8px;" alt="Girl Coding Animation"/>
+  <img src="https://media.giphy.com/media/S9d8XB557e8phGLBVS/giphy.gif" width="550" style="border-radius: 8px;" alt="Coding Animation"/>
 </div>
 
 <br/>
