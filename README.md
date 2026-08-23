@@ -141,7 +141,7 @@ life_philosophy: "Learning by building, one commit at a time."
   <br/><br/>
   
   <!-- Interactive Portfolio Walkthrough Animation -->
-  <img src="./assets/portfolio-walkthrough-v4.webp" width="550" style="border-radius: 8px;" alt="Portfolio Website Walkthrough"/>
+  <img src="./assets/portfolio-walkthrough-v5.webp" width="550" style="border-radius: 8px;" alt="Portfolio Website Walkthrough"/>
 </div>
 
 <br/>
