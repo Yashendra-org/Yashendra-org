@@ -217,11 +217,9 @@ life_philosophy: "Learning by building, one commit at a time."
   
 </div>
 
-<br/>
-
-<img src="./assets/divider.svg" width="100%"/>
-
-<br/>
+<div align="center">
+  <img src="./assets/ai-synapses.svg" alt="Neural Network Animation" width="100%"/>
+</div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- ⚡ TECH STACK                                                               -->
