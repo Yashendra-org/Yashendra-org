@@ -252,8 +252,20 @@ life_philosophy: "Learning by building, one commit at a time."
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript" title="JavaScript"/></a>
 </p>
 
+<!-- 📊 AI & DATA ANALYTICS -->
+<h4>📊 AI &amp; Data Analytics</h4>
+<p>
+  <img src="https://img.shields.io/badge/Machine%20Learning-1a1b26?style=for-the-badge&logo=scikitlearn&logoColor=f093fb&labelColor=1a1b26&color=667eea" alt="Machine Learning"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Power%20BI-1a1b26?style=for-the-badge&logo=powerbi&logoColor=f093fb&labelColor=1a1b26&color=667eea" alt="Power BI"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Microsoft%20Tools-1a1b26?style=for-the-badge&logo=microsoft&logoColor=f093fb&labelColor=1a1b26&color=667eea" alt="Microsoft Tools"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/DSA-1a1b26?style=for-the-badge&logo=leetcode&logoColor=f093fb&labelColor=1a1b26&color=667eea" alt="DSA"/>
+</p>
+
 <!-- 🔧 TOOLS & PLATFORMS -->
-<h4>🔧 Tools & AI Ecosystem</h4>
+<h4>🔧 Tools &amp; Ecosystem</h4>
 <p>
   <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" title="Git"/></a>
   <a href="https://github.com/" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" title="GitHub"/></a>
