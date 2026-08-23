@@ -134,7 +134,30 @@ life_philosophy: "Learning by building, one commit at a time."
 
 <img src="./assets/divider.svg" width="100%"/>
 
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- 🚀 PROJECTS SHOWCASE                                                        -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<details>
+<summary><b>📂 Click to Expand: Featured Projects Showcase</b></summary>
 <br/>
+
+<div align="center">
+  <a href="https://github.com/Yashendra-org">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Yashendra-org&repo=Yashendra-org&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&border_radius=12" />
+  </a>
+</div>
+
+<br/>
+
+| 🌟 Project | 💡 Description | 🛠 Stack |
+|:--|:--|:--|
+| [🤖 Profile Dashboard](https://github.com/Yashendra-org/Yashendra-org) | Custom profile dashboard repository showcasing engineering stats | Markdown · GitHub Actions |
+| [💡 Project Placeholder](https://github.com/Yashendra-org) | Your upcoming machine learning or full-stack web application | Python · Django |
+
+</details>
+
+<img src="./assets/divider.svg" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 📊 GITHUB ANALYTICS                                                         -->
