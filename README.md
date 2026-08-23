@@ -137,6 +137,11 @@ life_philosophy: "Learning by building, one commit at a time."
   <a href="https://github.com/Yashendra-org/portfolio">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Yashendra-org&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&border_radius=12" />
   </a>
+  
+  <br/><br/>
+  
+  <!-- Interactive Portfolio Walkthrough Animation -->
+  <img src="./assets/portfolio-walkthrough.webp" width="550" style="border-radius: 8px;" alt="Portfolio Website Walkthrough"/>
 </div>
 
 <br/>
