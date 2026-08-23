@@ -134,8 +134,8 @@ life_philosophy: "Learning by building, one commit at a time."
 <br/>
 
 <div align="center">
-  <a href="https://github.com/Yashendra-org/Portfolio">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Yashendra-org&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&border_radius=12" />
+  <a href="https://github.com/Yashendra-org/portfolio">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Yashendra-org&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9&border_radius=12" />
   </a>
 </div>
 
