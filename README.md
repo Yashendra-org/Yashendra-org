@@ -42,20 +42,11 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 🖥️ TERMINAL INTRO SECTION                                                   -->
+<!-- 💻 LAPTOP PORTFOLIO ANIMATION                                               -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <table cellpadding="0" cellspacing="0" border="0" style="border: none; border-collapse: collapse; border-width: 0px; margin: 0; padding: 0;">
-    <tr style="border: none; border-width: 0px;">
-      <td valign="center" style="border: none; border-width: 0px; padding: 0;">
-        <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="540"/>
-      </td>
-      <td valign="center" style="border: none; border-width: 0px; padding: 0;">
-        <img src="https://i.giphy.com/S9d8XB557e8phGLBVS.gif" width="260" style="border-radius: 8px;" alt="Coding Animation"/>
-      </td>
-    </tr>
-  </table>
+  <img src="./assets/laptop-opening.svg" alt="Laptop Opening Animation" width="700"/>
 </div>
 
 <img src="./assets/divider.svg" width="100%"/>
