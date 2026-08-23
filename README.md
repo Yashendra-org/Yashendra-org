@@ -33,7 +33,7 @@
 
 ---
 
-<img align="right" alt="coding gif" width="360" style="border-radius: 8px;" src="https://media.giphy.com/media/S9d8XB557e8phGLBVS/giphy.gif"/>
+<img align="right" alt="coding gif" width="360" style="border-radius: 8px;" src="https://i.giphy.com/S9d8XB557e8phGLBVS.gif"/>
 
 ## 🚀 Hey, I'm Yashendra!
 
@@ -111,7 +111,7 @@ yashendra = Developer(
 <div align="center">
 
 <a href="https://github.com/Yashendra-org">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yashendra-org&repo=Yashendra-org&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&icon_color=667eea&text_color=c9d1d9&border_radius=12" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Yashendra-org&repo=Yashendra-org&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&icon_color=667eea&text_color=c9d1d9&border_radius=12" />
 </a>
 
 </div>
@@ -129,9 +129,9 @@ yashendra = Developer(
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Yashendra-org&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&icon_color=667eea&text_color=c9d1d9&ring_color=667eea&count_private=true&include_all_commits=true&border_radius=12" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Yashendra-org&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&icon_color=667eea&text_color=c9d1d9&ring_color=667eea&count_private=true&include_all_commits=true&border_radius=12" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashendra-org&layout=compact&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&text_color=c9d1d9&border_radius=12" height="165"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Yashendra-org&layout=compact&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&text_color=c9d1d9&border_radius=12" height="165"/>
 
 <br/><br/>
 
