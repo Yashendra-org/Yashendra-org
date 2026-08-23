@@ -112,10 +112,7 @@ life_philosophy: "Learning by building, one commit at a time."
 </table>
 
 <br/>
-
 <img src="./assets/divider.svg" width="100%"/>
-
-<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 📁 EXPERIENCE SECTION                                                        -->
@@ -134,8 +131,6 @@ life_philosophy: "Learning by building, one commit at a time."
 - Collaborated with engineering teams to deploy basic functional utilities.
 
 </details>
-
-<br/>
 
 <img src="./assets/divider.svg" width="100%"/>
 
