@@ -38,11 +38,11 @@
 ## 🚀 Hey, I'm Yashendra!
 
 ```python
-val yashendra = Developer(
+yashendra = Developer(
     name     = "Yashendra Kumar",
     role     = "B.Tech CS · AI & Data Science Student",
-    loves    = listOf("Machine Learning", "Clean Code", "Django & React"),
-    learning = listOf("Advanced ML", "Power BI", "DSA"),
+    loves    = ["Machine Learning", "Clean Code", "Django & React"],
+    learning = ["Advanced ML", "Power BI", "DSA"],
     motto    = "Learning by building, one commit at a time. 🚀"
 )
 ```
@@ -129,9 +129,9 @@ val yashendra = Developer(
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Yashendra-org&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&icon_color=667eea&text_color=c9d1d9&ring_color=667eea&count_private=true&include_all_commits=true&border_radius=12" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Yashendra-org&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&icon_color=667eea&text_color=c9d1d9&ring_color=667eea&count_private=true&include_all_commits=true&border_radius=12" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Yashendra-org&layout=compact&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&text_color=c9d1d9&border_radius=12" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashendra-org&layout=compact&theme=tokyonight&hide_border=true&bg_color=1f1f2e&title_color=667eea&text_color=c9d1d9&border_radius=12" height="165"/>
 
 <br/><br/>
 
