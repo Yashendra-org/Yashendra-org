@@ -149,8 +149,6 @@ life_philosophy: "Learning by building, one commit at a time."
 
 <img src="./assets/section-stats.svg" width="220"/>
 
-<br/><br/>
-
 <div align="center">
   
   <!-- GitHub Stats + Custom Streak in ONE ROW -->
@@ -280,8 +278,6 @@ life_philosophy: "Learning by building, one commit at a time."
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <img src="./assets/section-connect.svg" width="160"/>
-
-<br/><br/>
 
 <div align="center">
   
