@@ -54,7 +54,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/S9d8XB557e8phGLBVS/giphy.gif" width="510" style="border-radius: 8px;" alt="Coding Animation"/>
+  <img src="https://media.giphy.com/media/S9d8XB557e8phGLBVS/giphy.gif" width="380" style="border-radius: 8px;" alt="Coding Animation"/>
 </div>
 
 <br/>
