@@ -48,13 +48,16 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="650"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://i.giphy.com/S9d8XB557e8phGLBVS.gif" width="380" style="border-radius: 8px;" alt="Coding Animation"/>
+  <table>
+    <tr>
+      <td valign="center">
+        <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="540"/>
+      </td>
+      <td valign="center">
+        <img src="https://i.giphy.com/S9d8XB557e8phGLBVS.gif" width="260" style="border-radius: 8px;" alt="Coding Animation"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
