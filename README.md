@@ -168,10 +168,12 @@ life_philosophy: "Learning by building, one commit at a time."
   
   <br/><br/>
   
-  <!-- Activity Graph -->
-  <a href="https://github.com/Yashendra-org">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashendra-org&bg_color=0d1117&color=667eea&line=764ba2&point=c9d1d9&area=true&area_color=667eea&hide_border=true&custom_title=📈%20Contribution%20Activity" width="100%" alt="Activity Graph"/>
-  </a>
+  <!-- Snake Contribution Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashendra-org/Yashendra-org/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yashendra-org/Yashendra-org/output/github-snake.svg"/>
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Yashendra-org/Yashendra-org/output/github-snake-dark.svg" width="100%"/>
+  </picture>
   
   <br/><br/>
   
@@ -198,9 +200,9 @@ life_philosophy: "Learning by building, one commit at a time."
   
   <!-- Pac-Man Contribution Graph -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg"/>
-    <img alt="Pac-Man eating contributions" src="./assets/pacman-contribution-graph-dark.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yashendra-org/Yashendra-org/output/pacman-contribution-graph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yashendra-org/Yashendra-org/output/pacman-contribution-graph.svg"/>
+    <img alt="Pac-Man eating contributions" src="https://raw.githubusercontent.com/Yashendra-org/Yashendra-org/output/pacman-contribution-graph-dark.svg" width="100%"/>
   </picture>
   
   <br/>
