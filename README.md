@@ -188,8 +188,6 @@ life_philosophy: "Learning by building, one commit at a time."
 
 <img src="./assets/section-game.svg" width="280"/>
 
-<br/><br/>
-
 <div align="center">
   
   <!-- Pac-Man Contribution Graph -->
