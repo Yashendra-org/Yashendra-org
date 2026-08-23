@@ -66,8 +66,6 @@
 
 <img src="./assets/section-about.svg" width="180"/>
 
-<br/><br/>
-
 <table>
 <tr>
 <td width="55%" valign="top">
