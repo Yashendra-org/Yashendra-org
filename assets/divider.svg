@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  🎨 VISUAL DIVIDER COMPONENT
+  - Uses the premium theme gradient (Blue -> Purple -> Blue) fading to the dark background fill.
+-->
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="8" viewBox="0 0 900 8">
   <defs>
+    <!-- Accent Line Gradient -->
     <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#0d1117"/>
       <stop offset="15%" style="stop-color:#667eea"/>
@@ -10,5 +15,6 @@
     </linearGradient>
   </defs>
   
+  <!-- Centered Accent Line -->
   <rect x="0" y="3" width="900" height="2" fill="url(#dividerGrad)" rx="1"/>
 </svg>
