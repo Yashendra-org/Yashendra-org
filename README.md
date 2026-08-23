@@ -156,7 +156,14 @@ life_philosophy: "Learning by building, one commit at a time."
   </a>
   &nbsp;
   <a href="https://github.com/Yashendra-org">
-    <img height="195em" src="./assets/streak.svg" alt="GitHub Streak"/>
+    <img height="195em" src="https://streak-stats.demolab.com/?user=Yashendra-org&theme=tokyonight&hide_border=true&background=0d1117&stroke=667eea&ring=764ba2&fire=f093fb&currStreakLabel=667eea&sideNums=c9d1d9&sideLabels=c9d1d9&dates=a7b5eb&currStreakNum=c9d1d9" alt="GitHub Streak"/>
+  </a>
+  
+  <br/><br/>
+  
+  <!-- 📊 REAL-TIME LANGUAGE USAGE WITH PROGRESS BARS -->
+  <a href="https://github.com/Yashendra-org">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Yashendra-org&layout=normal&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&langs_count=8&card_width=400" alt="Top Languages" />
   </a>
   
   <br/><br/>
