@@ -150,6 +150,12 @@ life_philosophy: "Learning by building, one commit at a time."
 
 <img src="./assets/divider.svg" width="100%"/>
 
+<div align="center">
+  <img src="./assets/ai-training.svg" alt="Model Training Pipeline Animation" width="100%"/>
+</div>
+
+<br/>
+
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 📊 GITHUB ANALYTICS                                                         -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->

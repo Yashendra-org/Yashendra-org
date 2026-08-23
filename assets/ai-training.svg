@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="100%">
+  <defs>
+    <!-- Glowing Color Theme -->
+    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e38" />
+      <stop offset="100%" style="stop-color:#0d1117" />
+    </linearGradient>
+    <linearGradient id="accuracyGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#764ba2" />
+      <stop offset="100%" style="stop-color:#f093fb" />
+    </linearGradient>
+    <linearGradient id="lossGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff5f56" />
+      <stop offset="100%" style="stop-color:#ffbd2e" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      /* Timeline/Graph plotting animations */
+      @keyframes drawLine {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      
+      /* Glowing Point Pulse */
+      @keyframes pointPulse {
+        0%, 100% { transform: scale(1); opacity: 0.6; }
+        50% { transform: scale(1.6); opacity: 1; }
+      }
+
+      /* Data Blocks Sliding (Processing Queue) */
+      @keyframes queueSlide {
+        0% { transform: translateX(0px); }
+        100% { transform: translateX(-40px); }
+      }
+
+      /* Matrix Stream Animation */
+      @keyframes matrixStream {
+        0% { transform: translateY(-100px); opacity: 0; }
+        10%, 90% { opacity: 0.8; }
+        100% { transform: translateY(150px); opacity: 0; }
+      }
+
+      /* Epoch Counter steps */
+      @keyframes epochProgress {
+        0% { content: "EPOCH: 01/10"; }
+        10% { content: "EPOCH: 02/10"; }
+        20% { content: "EPOCH: 04/10"; }
+        30% { content: "EPOCH: 05/10"; }
+        40% { content: "EPOCH: 06/10"; }
+        50% { content: "EPOCH: 07/10"; }
+        60% { content: "EPOCH: 08/10"; }
+        70% { content: "EPOCH: 09/10"; }
+        80%, 100% { content: "EPOCH: 10/10"; }
+      }
+
+      /* Animated values counters */
+      @keyframes accCounter {
+        0% { content: "ACC: 0.234"; }
+        20% { content: "ACC: 0.451"; }
+        40% { content: "ACC: 0.689"; }
+        60% { content: "ACC: 0.812"; }
+        80% { content: "ACC: 0.945"; }
+        100% { content: "ACC: 0.988"; }
+      }
+      @keyframes lossCounter {
+        0% { content: "LOSS: 1.482"; }
+        20% { content: "LOSS: 0.892"; }
+        40% { content: "LOSS: 0.431"; }
+        60% { content: "LOSS: 0.187"; }
+        80% { content: "LOSS: 0.062"; }
+        100% { content: "LOSS: 0.021"; }
+      }
+
+      .epoch-text::after {
+        content: "EPOCH: 01/10";
+        animation: epochProgress 8s steps(1) infinite;
+      }
+      .acc-text::after {
+        content: "ACC: 0.234";
+        animation: accCounter 8s steps(1) infinite;
+      }
+      .loss-text::after {
+        content: "LOSS: 1.482";
+        animation: lossCounter 8s steps(1) infinite;
+      }
+
+      .animated-graph {
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        animation: drawLine 8s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+      }
+      
+      .pulsing-point {
+        transform-origin: center;
+        animation: pointPulse 2s infinite ease-in-out;
+      }
+
+      .queue-item {
+        animation: queueSlide 0.8s linear infinite;
+      }
+
+      .matrix-col-1 { animation: matrixStream 5s linear infinite; }
+      .matrix-col-2 { animation: matrixStream 7s linear infinite; animation-delay: 2s; }
+      .matrix-col-3 { animation: matrixStream 6s linear infinite; animation-delay: 3.5s; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="100%" height="100%" fill="#0d1117" />
+  <rect width="100%" height="100%" fill="url(#gridGrad)" opacity="0.4" />
+
+  <!-- Grid mesh backdrop -->
+  <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 50,0 L 50,250 M 100,0 L 100,250 M 150,0 L 150,250 M 200,0 L 200,250 M 250,0 L 250,250 M 300,0 L 300,250 M 350,0 L 350,250 M 400,0 L 400,250 M 450,0 L 450,250 M 500,0 L 500,250 M 550,0 L 550,250 M 600,0 L 600,250 M 650,0 L 650,250 M 700,0 L 700,250 M 750,0 L 750,250" stroke="#1f2937" stroke-width="0.5" />
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- LEFT: DATA STREAMING GRAPHICS (MATRIX QUEUE)                            -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- Queue Border bounding box -->
+  <rect x="25" y="45" width="220" height="160" rx="8" fill="#090d16" stroke="#2a3042" stroke-width="1.5" />
+  
+  <text x="35" y="35" font-family="'SF Mono', monospace" font-size="10" fill="#6b7280" letter-spacing="1">
+    DATAFEED // PIPELINE_INPUT
+  </text>
+
+  <!-- Sliding Data Packages -->
+  <g transform="translate(10, 0)">
+    <!-- Mask to keep slides inside container -->
+    <clipPath id="queueClip">
+      <rect x="25" y="55" width="200" height="140" />
+    </clipPath>
+    <g clip-path="url(#queueClip)">
+      <g class="queue-item">
+        <!-- 4 boxes representing tensor layers sliding -->
+        <rect x="40" y="80" width="30" height="90" rx="4" fill="#667eea" opacity="0.15" stroke="#667eea" stroke-width="1" />
+        <rect x="80" y="80" width="30" height="90" rx="4" fill="#764ba2" opacity="0.2" stroke="#764ba2" stroke-width="1" />
+        <rect x="120" y="80" width="30" height="90" rx="4" fill="#f093fb" opacity="0.3" stroke="#f093fb" stroke-width="1" />
+        <rect x="160" y="80" width="30" height="90" rx="4" fill="#667eea" opacity="0.15" stroke="#667eea" stroke-width="1" />
+        <rect x="200" y="80" width="30" height="90" rx="4" fill="#764ba2" opacity="0.2" stroke="#764ba2" stroke-width="1" />
+        <rect x="240" y="80" width="30" height="90" rx="4" fill="#f093fb" opacity="0.3" stroke="#f093fb" stroke-width="1" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Binary falling streams on top -->
+  <g font-family="monospace" font-size="8" fill="#f093fb" opacity="0.5">
+    <text x="50" y="0" class="matrix-col-1">1010110</text>
+    <text x="130" y="0" class="matrix-col-2">0100101</text>
+    <text x="180" y="0" class="matrix-col-3">1110010</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- CENTER: DYNAMIC MODEL METRICS PANEL                                     -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <rect x="270" y="45" width="220" height="160" rx="8" fill="#090d16" stroke="#2a3042" stroke-width="1.5" />
+  
+  <text x="280" y="35" font-family="'SF Mono', monospace" font-size="10" fill="#6b7280" letter-spacing="1">
+    MODEL STATE // COMPILING
+  </text>
+
+  <!-- Terminal Style Metric outputs -->
+  <g font-family="'SF Mono', monospace" font-size="12" font-weight="700">
+    <text x="290" y="80" fill="#ffffff" class="epoch-text" />
+    <text x="290" y="110" fill="#a7b5eb" class="acc-text" />
+    <text x="290" y="140" fill="#ff5f56" class="loss-text" />
+    
+    <!-- Status progress bars -->
+    <rect x="290" y="160" width="180" height="6" rx="3" fill="#1f2937" />
+    <rect x="290" y="160" width="180" height="6" rx="3" fill="url(#accuracyGrad)">
+      <animate attributeName="width" values="40;90;130;160;175;180" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <text x="290" y="190" fill="#22c55e" font-size="9">STATUS: OPTIMIZING_WEIGHTS</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- RIGHT: REAL-TIME LOSS / ACCURACY CURVES GRAPH                           -->
+  <!-- ═══════════════════════════════════════════════════════════════════════ -->
+  <rect x="515" y="45" width="260" height="160" rx="8" fill="#090d16" stroke="#2a3042" stroke-width="1.5" />
+  
+  <text x="525" y="35" font-family="'SF Mono', monospace" font-size="10" fill="#6b7280" letter-spacing="1">
+    LEARNING RATE CURVE
+  </text>
+
+  <!-- Graph Axis lines -->
+  <line x1="535" y1="180" x2="755" y2="180" stroke="#4b5563" stroke-width="1.5" />
+  <line x1="535" y1="65" x2="535" y2="180" stroke="#4b5563" stroke-width="1.5" />
+
+  <!-- Accuracy Curve (Rising) -->
+  <path d="M535,170 C570,165 605,120 640,90 C675,75 710,70 750,68" fill="none" stroke="url(#accuracyGrad)" stroke-width="3" filter="url(#neonGlow)" class="animated-graph" />
+  
+  <!-- Loss Curve (Falling) -->
+  <path d="M535,80 C570,95 605,150 640,165 C675,172 710,175 750,177" fill="none" stroke="url(#lossGrad)" stroke-width="2.5" class="animated-graph" />
+
+  <!-- Intersection pulses -->
+  <g class="pulsing-point">
+    <!-- Point Acc -->
+    <circle cx="750" cy="68" r="4" fill="#f093fb" />
+    <!-- Point Loss -->
+    <circle cx="750" cy="177" r="4" fill="#ff5f56" />
+  </g>
+</svg>
