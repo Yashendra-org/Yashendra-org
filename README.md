@@ -226,8 +226,6 @@ life_philosophy: "Learning by building, one commit at a time."
 
 <img src="./assets/section-tech.svg" width="180"/>
 
-<br/><br/>
-
 <div align="center">
 
 <!-- 💻 LANGUAGES & DATA -->
