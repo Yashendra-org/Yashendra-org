@@ -41,8 +41,6 @@
   
 </div>
 
-<br/>
-
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 🖥️ TERMINAL INTRO SECTION                                                   -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
@@ -50,7 +48,7 @@
 <div align="center">
   <table cellpadding="0" cellspacing="0" border="0" style="border: none; border-collapse: collapse; border-width: 0px; margin: 0; padding: 0;">
     <tr style="border: none; border-width: 0px;">
-      <td valign="center" style="border: none; border-width: 0px; padding: 0 10px 0 0;">
+      <td valign="center" style="border: none; border-width: 0px; padding: 0;">
         <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="540"/>
       </td>
       <td valign="center" style="border: none; border-width: 0px; padding: 0;">
@@ -60,11 +58,7 @@
   </table>
 </div>
 
-<br/>
-
 <img src="./assets/divider.svg" width="100%"/>
-
-<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 <!-- 👤 ABOUT ME SECTION                                                          -->
